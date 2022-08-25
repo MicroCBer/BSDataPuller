@@ -14,7 +14,7 @@ namespace DataPuller.Server
         /*public static event Action<string> _SendError;
         public static void SendError(string error) { _SendError?.Invoke(error); }*/
 
-        private WebSocketServer webSocketServer = new WebSocketServer("ws://0.0.0.0:2946");
+        private WebSocketServer webSocketServer = new WebSocketServer("wss://0.0.0.0:2946");
 
         public Server() { Initialize(); }
 
